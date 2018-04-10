@@ -1,0 +1,44 @@
+@import "core"
+
+.content-section
+  .heading
+    //display: inline-block
+    //float: left
+    //width: 100%
+    //.event-title
+    //  width: 200px
+    //  display: inline-block
+    //  h1
+    .event-info
+      float: left
+    .add-race
+      float: right
+      position: relative
+      top: -22px
+.race-container
+  background: #41596f
+  color: #fff
+  border-radius: .4em
+  overflow: hidden
+  border: 1px solid grey
+  width: 359px
+  display: inline-block
+  padding: 5px
+  margin: 5px 5px 20px 5px
+  .race-heading
+    padding: 3px 7px 2px 7px
+    .delete
+      float: right
+    .add-horse
+      padding-left: 20px
+  &.finished
+    background: #597895
+
+.flag
+  content: url("/images/custom/flag.png")
+  width: 20px
+  height: 20px
+  position: relative
+  top: 5px
+  padding: 5px
+

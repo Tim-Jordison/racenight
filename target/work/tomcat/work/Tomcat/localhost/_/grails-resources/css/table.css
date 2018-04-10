@@ -1,0 +1,84 @@
+/*@import "http://fonts.googleapis.com/css?family=Montserrat:300,400,700";*/
+.pretty-table {
+    margin: 1em 0;
+    min-width: 300px;
+}
+.pretty-table tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.pretty-table th {
+    display: none;
+}
+.pretty-table td {
+    display: block;
+}
+.pretty-table td:first-child {
+    padding-top: .5em;
+}
+.pretty-table td:last-child {
+    padding-bottom: .5em;
+}
+.pretty-table td:before {
+    /*content: attr(data-th) ": ";*/
+    /*font-weight: bold;*/
+    /*width: 6.5em;*/
+    /*display: inline-block;*/
+}
+@media (min-width: 480px) {
+    .pretty-table td:before {
+        display: none;
+    }
+}
+.pretty-table th, .pretty-table td {
+    text-align: left;
+}
+@media (min-width: 480px) {
+    .pretty-table th, .pretty-table td {
+        display: table-cell;
+        padding: .25em .5em;
+    }
+    .pretty-table th:first-child, .pretty-table td:first-child {
+        padding-left: 0;
+    }
+    .pretty-table th:last-child, .pretty-table td:last-child {
+        padding-right: 0;
+    }
+}
+
+body {
+    padding: 0 2em;
+    /*font-family: Montserrat, sans-serif;*/
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #444;
+    background: #eee;
+}
+
+/*h1 {*/
+    /*font-weight: normal;*/
+    /*letter-spacing: -1px;*/
+    /*color: #34495E;*/
+/*}*/
+
+.pretty-table {
+    background: #34495E;
+    color: #fff;
+    border-radius: .4em;
+    overflow: hidden;
+}
+.pretty-table tr {
+    border-color: #46627f;
+}
+.pretty-table th, .pretty-table td {
+    margin: .5em 1em;
+}
+@media (min-width: 480px) {
+    .pretty-table th, .pretty-table td {
+        /*padding: 1em !important;*/
+        padding-left: 1em !important;
+    }
+}
+.pretty-table th, .pretty-table td:before {
+    color: #dd5;
+}

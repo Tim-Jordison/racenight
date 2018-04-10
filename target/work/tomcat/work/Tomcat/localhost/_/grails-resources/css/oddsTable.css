@@ -1,0 +1,17 @@
+.odds-table-div {
+  margin: 20px auto;
+  width: 800px;
+  color: white; }
+  .odds-table-div .race-sponsor {
+    border: 90px solid white;
+    border-radius: 90px;
+    float: right;
+    opacity: 0.9; }
+  .odds-table-div .sponsor-image {
+    width: 130px;
+    margin: -62px; }
+  .odds-table-div .pretty-table {
+    margin-top: 40px;
+    opacity: 0.9;
+    width: 100% !important;
+    font-size: 24px !important; }

@@ -1,0 +1,6 @@
+@charset "UTF-8";
+.renamer-field:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80); }
+
+

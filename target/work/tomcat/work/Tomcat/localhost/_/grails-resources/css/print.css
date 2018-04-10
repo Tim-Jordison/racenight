@@ -1,0 +1,19 @@
+body {
+  padding-bottom: 20px; }
+  body .print-section {
+    font-family: "GT Walsheim", sans-serif;
+    width: 300px; }
+    body .print-section .print-logo {
+      width: 100%; }
+  body .centered {
+    text-align: center; }
+  body table.printable-table {
+    width: 280px; }
+    body table.printable-table td {
+      text-align: center; }
+  body hr {
+    padding: 0;
+    border: none;
+    border-top: medium double #333333;
+    color: #333333;
+    text-align: center; }
